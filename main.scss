@@ -23,6 +23,20 @@ body{
          color: #ababc7;
 
     }
+    h3{
+        font-size: 40px;
+
+    }
+    .btn{
+                border-radius: 4px;
+                font-size: 18px;  
+                background-color: color(primary);
+                background-image: linear-gradient(270deg, #885bfe 0%, #664ffa 100%);
+                color: #ffffff;
+                border: none;
+                box-shadow: 0 3px 10px rgba(71, 44, 173, 0.2);   
+                cursor: pointer;
+    }
 }
 header{
     position: fixed;
@@ -109,15 +123,7 @@ header{
                .btn{
                 width: 190px;
                 height: 55px;
-                border-radius: 4px;
-                margin: 5px;
-                font-size: 18px;  
-                background-color: color(primary);
-                background-image: linear-gradient(270deg, #885bfe 0%, #664ffa 100%);
-                color: #ffffff;
-                border: none;
-                box-shadow: 0 3px 10px rgba(71, 44, 173, 0.2);   
-                cursor: pointer;
+                margin: 5px;                
                }
            }
         }
@@ -140,7 +146,6 @@ header{
     .features-heading{
         margin-bottom: 80px;
         h3{
-            font-size: 40px;
             margin-bottom: 15px;
         }
         p{
@@ -173,6 +178,34 @@ header{
        }
     }
 }
+
+.about-container{
+    display: flex;
+    width: 100%;
+    padding: 100px 0px;
+    
+
+    .about-img{
+        width: 50%;
+        margin: 25px;
+      img{
+          width: 100%;
+      }
+    }
+    .about-text{
+        width: 50%;
+        margin: 25px;
+        p{
+            margin-top: 15px;
+        }
+        .btn{
+            width: 190px;
+            height: 55px;
+            margin-top: 15px;
+           }
+    }
+}
+
 
 
 }

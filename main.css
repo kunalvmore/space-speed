@@ -13,6 +13,23 @@ body p {
   color: #ababc7;
 }
 
+body h3 {
+  font-size: 40px;
+}
+
+body .btn {
+  border-radius: 4px;
+  font-size: 18px;
+  background-color: #664ffa;
+  background-image: -webkit-gradient(linear, right top, left top, from(#885bfe), to(#664ffa));
+  background-image: linear-gradient(270deg, #885bfe 0%, #664ffa 100%);
+  color: #ffffff;
+  border: none;
+  -webkit-box-shadow: 0 3px 10px rgba(71, 44, 173, 0.2);
+          box-shadow: 0 3px 10px rgba(71, 44, 173, 0.2);
+  cursor: pointer;
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -119,17 +136,7 @@ header ul li a {
 .main .home .home-container .text-home .form-home .btn {
   width: 190px;
   height: 55px;
-  border-radius: 4px;
   margin: 5px;
-  font-size: 18px;
-  background-color: #664ffa;
-  background-image: -webkit-gradient(linear, right top, left top, from(#885bfe), to(#664ffa));
-  background-image: linear-gradient(270deg, #885bfe 0%, #664ffa 100%);
-  color: #ffffff;
-  border: none;
-  -webkit-box-shadow: 0 3px 10px rgba(71, 44, 173, 0.2);
-          box-shadow: 0 3px 10px rgba(71, 44, 173, 0.2);
-  cursor: pointer;
 }
 
 .main .home .home-container .figure-home {
@@ -150,7 +157,6 @@ header ul li a {
 }
 
 .main .features-container .features-heading h3 {
-  font-size: 40px;
   margin-bottom: 15px;
 }
 
@@ -189,6 +195,38 @@ header ul li a {
 }
 
 .main .features-container .features-types .fer1 p {
+  margin-top: 15px;
+}
+
+.main .about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.main .about-container .about-img {
+  width: 50%;
+  margin: 25px;
+}
+
+.main .about-container .about-img img {
+  width: 100%;
+}
+
+.main .about-container .about-text {
+  width: 50%;
+  margin: 25px;
+}
+
+.main .about-container .about-text p {
+  margin-top: 15px;
+}
+
+.main .about-container .about-text .btn {
+  width: 190px;
+  height: 55px;
   margin-top: 15px;
 }
 /*# sourceMappingURL=main.css.map */
