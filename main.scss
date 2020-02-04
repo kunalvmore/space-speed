@@ -206,6 +206,65 @@ header{
     }
 }
 
+.process-container{
+    text-align: center;
+    padding: 100px 0px;
+
+    h3{
+        margin-bottom: 15px;
+    }
+    p{
+        width: 60%;
+        margin: auto;
+    }
+    .process-detatils{
+        margin-top: 70px;
+        display: flex;
+
+
+        .process-steps{
+            padding: 0px 10px;
+            width: 500px;
+            margin-right: 10px;
+            
+
+            .steps-contain{
+                display: flex;
+                padding: 17px;
+                width: 290px;
+                margin-top: 35px;
+                box-shadow: 6px 7px 36px 3px rgba(136,136,136,0.09);
+
+                .step-img{
+                    width: 45%;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .step-text{
+                    margin-left: 15px;
+                    h4{
+                        font-size: 18px;
+                        text-align: left;
+                    }
+                    p{
+                        font-size: 18px;
+                        width: 100%;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        .process-figure{
+            width: 50%;
+            margin-left: 25px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
 
 
 }
