@@ -299,4 +299,61 @@ header ul li a {
 .main .process-container .process-detatils .process-figure img {
   width: 100%;
 }
+
+.main .service-container {
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.main .service-container h3 {
+  margin-bottom: 15px;
+}
+
+.main .service-container p {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.main .service-container .services-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .service-container .services-list .list1 {
+  width: 250px;
+  height: 250px;
+  margin: 25px;
+  padding: 35px;
+  background: #fff;
+  -webkit-box-shadow: 1px 4px 6px 1px rgba(60, 28, 148, 0.07);
+          box-shadow: 1px 4px 6px 1px rgba(60, 28, 148, 0.07);
+}
+
+.main .service-container .services-list .list1 .services-listimg {
+  height: 60%;
+}
+
+.main .service-container .services-list .list1 .services-listimg img {
+  width: 100%;
+}
+
+.main .service-container .services-list .list1 h4 {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.main .service-container .services-list .list1 p {
+  margin-top: 20px;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+}
 /*# sourceMappingURL=main.css.map */

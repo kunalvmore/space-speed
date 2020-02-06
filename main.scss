@@ -265,6 +265,54 @@ header{
     }
 }
 
+.service-container{
+    text-align: center;
+    padding: 100px 0px;
 
+
+    h3{
+        margin-bottom: 15px;
+    }
+    p{
+        width: 60%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .services-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+
+        .list1{
+            width: 250px;
+            height: 250px;
+            margin: 25px;
+            padding: 35px;
+            background: #fff;
+            box-shadow: 1px 4px 6px 1px rgba(60, 28, 148, 0.07);
+
+
+            .services-listimg{
+                height: 60%;
+                img{
+                    width: 100%;
+                }
+            }
+            h4{
+                margin-top: 20px;
+                font-size: 18px;
+                text-align: center;
+            }
+            p{
+                margin-top: 20px;
+                font-size: 18px;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}
 
 }
