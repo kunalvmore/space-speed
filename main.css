@@ -356,4 +356,107 @@ header ul li a {
   width: 100%;
   text-align: center;
 }
+
+.main .faq-container {
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.main .faq-container h3 {
+  margin-bottom: 15px;
+}
+
+.main .faq-container p {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.main .faq-container .faq-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.main .faq-container .faq-block .faq-blockquestions {
+  width: 40%;
+  margin: 10px;
+}
+
+.main .faq-container .faq-block .faq-blockquestions .faq-content {
+  margin: 0 auto;
+}
+
+.main .faq-container .faq-block .faq-blockquestions .faq-question {
+  padding: 20px 0;
+  border-bottom: 1px dotted #ccc;
+}
+
+.main .faq-container .faq-block .faq-blockquestions .panel-title {
+  font-size: 20px;
+  font-weight: 400;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 10px 10px;
+  background: white;
+  display: block;
+  cursor: pointer;
+}
+
+.main .faq-container .faq-block .faq-blockquestions .panel-content {
+  font-size: 18px;
+  padding: 0px 8px;
+  margin: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
+
+.main .faq-container .faq-block .faq-blockquestions .panel:checked ~ .panel-content {
+  height: auto;
+  opacity: 1;
+  padding: 14px;
+}
+
+.main .faq-container .faq-block .faq-blockquestions .plus {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 4px;
+  z-index: 5;
+  font-size: 42px;
+  line-height: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+
+.main .faq-container .faq-block .faq-blockquestions .panel:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.main .faq-container .faq-block .faq-blockquestions .panel {
+  display: none;
+}
+
+.main .faq-container .faq-block .faq-blockimag {
+  width: 50%;
+  margin-left: 10px;
+}
+
+.main .faq-container .faq-block .faq-blockimag img {
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
