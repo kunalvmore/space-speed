@@ -46,7 +46,7 @@ header {
           align-items: center;
   background-image: -webkit-gradient(linear, right top, left top, from(#885bfe), to(#664ffa));
   background-image: linear-gradient(270deg, #885bfe 0%, #664ffa 100%);
-  z-index: 1000s;
+  z-index: 1000;
 }
 
 header .logo {
@@ -384,6 +384,7 @@ header ul li a {
 .main .faq-container .faq-block .faq-blockquestions {
   width: 40%;
   margin: 10px;
+  z-index: +1;
 }
 
 .main .faq-container .faq-block .faq-blockquestions .faq-content {

@@ -47,7 +47,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-image: linear-gradient(270deg, #885bfe 0%, #664ffa 100%);
-    z-index: 1000s;
+    z-index: 1000;
 
    .logo{
         color: #fff;
@@ -335,6 +335,7 @@ header{
         .faq-blockquestions{
             width: 40%;
             margin: 10px;
+            z-index: +1;
 
             .faq-content {
                 margin: 0 auto;
