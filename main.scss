@@ -493,7 +493,13 @@ header{
 
         .item{
             margin: 25px 0px;
-
+            img{
+                width: 75px;
+                margin: auto;               
+            }
+            p{
+                margin-top: 20px;
+            }
             h4{
                 margin-bottom: 50px;
             }

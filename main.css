@@ -557,6 +557,15 @@ header ul li a {
   margin: 25px 0px;
 }
 
+.main .testimonial-container .testimonial-items .item img {
+  width: 75px;
+  margin: auto;
+}
+
+.main .testimonial-container .testimonial-items .item p {
+  margin-top: 20px;
+}
+
 .main .testimonial-container .testimonial-items .item h4 {
   margin-bottom: 50px;
 }
