@@ -507,4 +507,71 @@ header{
     }
 }
 
+
+}
+.footer{
+    text-align: center;
+    padding: 50px 0px 25px 0px;
+    justify-content: center;   
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-areas: "footer-logo "
+                         "footer-menu"
+                         "footer-detatil"
+                         "footer-social";
+
+    grid-row-gap: 15px;
+
+    .footer-logo{
+           grid-area: footer-logo;
+          
+           h4{
+               font-size: 25px;
+               color: color(primary);
+           }
+    }
+       .footer-menu{
+        grid-area: footer-menu;
+        ul{
+            display: flex;
+    
+            li{
+                list-style: none;
+    
+                a{
+                    padding: 5px 10px;
+                    color: color(primary);
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+            }
+        }
+        } 
+        .footer-detatil{
+            grid-area: footer-detatil;
+        }
+        .footer-social{
+            grid-area: footer-social;
+            margin: auto;
+            ul{
+                display: flex;
+        
+                li{
+                    list-style: none;
+        
+                    a{
+                        padding: 5px 10px;
+                        color: color(primary);
+                        text-decoration: none;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }                   
+}
+.bottom-footer{
+    padding: 25px 0px;
+    width: auto;
+    text-align: center;
 }
