@@ -4,27 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>SpaceSpeed</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="carousel/owl.carousel.css">
     <link rel="stylesheet" href="carousel/owl.theme.default.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 </head>
 <body>
     <header id="header" >
-        <a href="" class="logo">Logo</a>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <div class="toggle" onclick="toggle()"></div>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fas fa-bars" id="btn"></i>
+                <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <h2>SpaceSpeed</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#aboutus">AboutUs</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <div class="main">
+
+        <a name="home"></a>
         <section class="home">
             <div class="home-container">
                 <div class="text-home">
@@ -40,6 +50,8 @@
                 </div>
             </div>
         </section>
+
+        <a name="features"></a>
         <section class="features">
             <div class="features-container">
                 <div class="features-heading">
@@ -74,6 +86,8 @@
 
             </div>
         </section>
+
+        <a name="aboutus"></a>
         <section class="about">
             <div class="about-container">
                 <div class="about-img">
@@ -87,6 +101,7 @@
                 </div>
             </div>
         </section>
+
         <section class="process">
             <div class="process-container">
                 <h3>Creative process</h3>
@@ -127,6 +142,8 @@
                 </div>
             </div>
         </section>
+
+        <a name="services"></a>
         <section class="services">
             <div class="service-container">
                 <h3>Our service</h3>
@@ -177,6 +194,7 @@
                 </div>
             </div>
         </section>
+
         <section class="faq">
             <div class="faq-container">
                 <h3>Have question?</h3>
@@ -227,6 +245,8 @@
                 </div>
             </div>
         </section>
+
+        <a name="pricing"></a>
         <section class="packages">
             <div class="package-container">
                 <h3>Our Packages</h3>
@@ -262,6 +282,8 @@
                 </div>
             </div>
         </section>
+
+        <a name="testimonials"></a>
         <section class="testimonial">
             <div class="testimonial-container">
                 <h3>What our clients say</h3>
@@ -296,6 +318,8 @@
             </div>
         </section>
     </div>
+
+    <a name="contact"></a>
     <footer class="footer">
         <div class="footer-logo">
             <h4>SpaceSpeed</h4>
@@ -306,13 +330,13 @@
         </div>
         <div class="footer-menu">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Testimonials</a></li>
-                    <li><a href="">AboutUs</a></li>
-                    <li><a href="">Pricing</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#aboutus">AboutUs</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
         </div>
         <div class="footer-social">
@@ -348,12 +372,6 @@
         })
     </script>
 
-    <script type="text/javascript">
-        function toggle(){
-            var header = document.getElementById("header")
-            header.classList.toggle('active')
-        }
-    </script>
 
 </body>
 </html>
